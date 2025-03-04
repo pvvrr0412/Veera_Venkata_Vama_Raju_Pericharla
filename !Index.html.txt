@@ -1,0 +1,84 @@
+<!Index.html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rama Raju - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 20px;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        section {
+            padding: 20px;
+            background: white;
+            margin: 20px auto;
+            width: 80%;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background: #333;
+            color: white;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rama Raju</h1>
+        <p>Information Technology & Management | Data Science | Product Management</p>
+        <a href="Rama_Raju_Resume.pdf" download class="btn">Download Resume</a>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a Master's student in Information Technology & Management, passionate about Data Science and Product Management.</p>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><a href="https://veeraorganicfarming.netlify.app/" target="_blank">Organic Farming Website</a></li>
+            <li>Agile Simulation Tool</li>
+            <li>Data Preprocessing & Visualization (Titanic Dataset)</li>
+        </ul>
+    </section>
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <p>Python, Pandas, Tableau, Data Analysis, Product Management, Cloud Computing</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:PERICHARLAVVRRAJU@GMAIL.COM">PERICHARLAVVRRAJU@GMAIL.COM</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/ramarajupericharla/" target="_blank">linkedin.com/in/ramarajupericharla</a></p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Rama Raju. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
